@@ -77,6 +77,92 @@ html {
     width:70vw
     
 }
+.img-right{
+    float:right;
+    border:1px solid #c0c0c0;
+    padding:5px;
+}
+.img-left{
+    float:left;
+    border:1px solid #c0c0c0;
+    padding:5px;
+    border-radius:6px;
+    margin-right:20px;
+}
+.img-center {
+    display:block;
+    border:1px solid #c0c0c0;
+    padding:5px;
+    border-radius:6px;
+}
+
+table{
+    width:100%;
+    border:1px solid #c0c0c0;
+    border-collapse:collapse;
+    
+}
+table caption{
+    color:green;
+    padding:10px;
+    font-weight:bold;
+    font-size:1.4rem;
+}
+table tr:nth-child(even){
+    background-color:rgba(0,0,0,.1);
+}
+table tr:hover{
+    background-color:rgba(0,0,0,.2);
+}
+table td{
+    border:1px solid #c0c0c0;
+    padding:5px;
+}
+table th{
+    background-color:green;
+    color:purple;
+    width:33%;
+    padding:10px;
+}
+#additional-elements ol{
+    list-style-type:lower-roman;
+}
+#additional-elements ul{
+    list-style-type:square;
+}
+#additional-elements ul ul {
+    list-style-type:circle;
+}
+#additional-elements dt{
+    font-weight:bold;
+    font-size:1.2rem;
+}
+
+#additional-elements dl{
+    
+}
+
+#additional-elements dd{
+    margin:0;
+    
+}
+
+blockquote{
+    background:rgab(0,0,0,.15);
+    padding: 20px 40px;
+    border:5px double #c0c0c0;
+    border-radius:16px;
+    font-size:1.2rem;
+}
+blockquote cite{
+    display:block;
+    text-align:right;
+    font-weight:bold;
+    font-size:.6rem;
+    padding-top:1.5rem;
+}
+
+
 
 @media screen and (max width:585px){
     
@@ -104,4 +190,7 @@ html {
     display:flex;
     flex-direction:column
     justify-content:space-between;
+}
+#additional-elements a:link, #additional-elements a:visited{
+    color:purple;
 }
